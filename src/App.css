@@ -1,0 +1,57 @@
+* {
+  background: black;
+  color: white;
+  margin: 10px;
+}
+/* logohead  */
+.logo-div {
+  display: flex;
+}
+
+.redlogo {
+  width: 50px;
+}
+
+h2 {
+  color: red;
+}
+
+/* signup and img css */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+}
+
+.signin-div {
+  background-color: rgb(99, 97, 97);
+  width: 280px;
+  padding: 20px;
+}
+
+.in-data {
+  width: 252px;
+  height: 35px;
+}
+/* .h1 {
+  text-decoration: none;
+  color: purple;
+} */
+.highlight {
+  color: purple;
+  text-align: center;
+  background-color: rgb(99, 97, 97);
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  background-color: red;
+  text-align: center;
+}
+
+.new-to-fa {
+  float: right;
+  background-color: rgb(99, 97, 97);
+}
