@@ -1,51 +1,35 @@
-* {
-  background: black;
-  color: white;
-  margin: 10px;
-}
-/* logohead  */
-.logo-div {
-  display: flex;
-}
-
-.redlogo {
-  width: 50px;
-}
-
-h2 {
-  color: red;
-}
-
-/* signup and img css */
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 7rem;
 }
 
-.signin-div {
-  background-color: rgb(99, 97, 97);
-  width: 280px;
-  padding: 20px;
+.signin-wrapper {
+  background-color: #0f0f0f;
+  width: 350px;
+  text-align: center;
+  padding:8px;
+  height: 400px;
 }
 
 
 
 .highlight {
-  color: purple;
+  color:  #aa68eb;
   text-align: center;
-  background-color: rgb(99, 97, 97);
+  margin-bottom:1rem;
 }
 
 .btn {
-  width: 150px;
-  height: 30px;
-  background-color: red;
+  width: 70%;
+  height: 40px;
+  background-color: #ef4430;
   text-align: center;
-}
+  margin-bottom:2rem ;
+  border-radius: 5px;}
 
 .new-to-fa {
   float: right;
-  background-color: rgb(99, 97, 97);
+  margin-top: 5rem;
+  color: white;
 }

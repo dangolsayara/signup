@@ -1,0 +1,13 @@
+.logo-wrapper{
+  display: flex;
+  padding: 20px;
+}
+
+.redlogo {
+  width: 50px;
+}
+
+h2 {
+  color: #ef4430;
+  padding: 10px;
+}

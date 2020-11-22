@@ -1,27 +1,22 @@
 import React from 'react';
 import Input from './commons/Input';
+import Banner from './commons/Bannerimg';
 import '../css/signin.css';
 
 function Signin() {
   return (
     <div className="wrapper">
-      <div className="img-div">
-        <img src="pursuit.jpg" alt="movie banner" />
-      </div>
-      <div className="signin-div">
-        {/* <form> */}
+      <Banner />
+      <div className="signin-wrapper">
         <h2 className="highlight">Sign In</h2>
         <Input type="text" name="userName" placeholder="Username" />
-
         <Input type="password" name="password" placeholder="Password" />
-
-        <button className="btn">Continue</button>
+        <button className="btn">CONTINUE</button>
         <h6>
-          <a href="www.google.com" className="highlight">
+          <a href="#" className="highlight">
             Forget username or password?
           </a>
         </h6>
-        {/* </form> */}
         <h5 className="new-to-fa">New To Fa?</h5>
       </div>
     </div>

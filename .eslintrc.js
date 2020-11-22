@@ -19,7 +19,7 @@ module.exports = {
     ignorePatterns: ['/node_modules/**', '/build/**'],
     rules: {
       "react/prop-types": 0,
-      'prettier/prettier': ['error'],
+      'prettier/prettier': ['warn'],
   },  settings: {
     react: {
       version: 'detect',
